@@ -2,3 +2,18 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Raw source PDFs (converted to PNG for web)
+assets/images/AoI.pdf
+assets/images/Pmatrix_kernel.pdf
+assets/images/training_loss.pdf
+
+# Original unformatted image filenames (copied to proper locations)
+"assets/images/IMG_20210901_103709 (2).jpg"
+assets/images/WIN_20220203_13_46_09_Pro.jpg
+assets/images/mmexport1629480687711.jpg
+assets/images/mmexport1708583805271.png

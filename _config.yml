@@ -13,14 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+title: Weiqi Wang
+email: weiqiwang93@gmail.com
+description: >-
+  Ph.D. in Mathematics. Accepting industrial, academic, teaching, and tutor positions.
+  Applied mathematics researcher with coding, teaching, and AI training experience.
 minimal_mistakes_skin: default
 search: true
 
@@ -58,34 +55,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Weiqi Wang"
+  avatar : "/assets/images/profile/profile.jpg"
+  bio    : "Ph.D. in Mathematics. Accepting industrial, academic, teaching, and tutor positions. Applied mathematics researcher with coding, teaching, and AI training experience."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:weiqiwang93@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/weiqi-wang-math/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=DxsxG38AAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/WeiqiWangMath"
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  links: []
 
 defaults:
   # _posts
